@@ -1,0 +1,29 @@
+Group			com.luv2code
+Artifact		spring-boot-ecommerce
+Name			spring-boot-ecommerce
+Description		Spring Boot Ecommerce Project
+Package name	com.luv2code.ecommerce
+Dependencies	Spring Data JPA SQL
+					Persist data in SQL stores with Java Persistence API using Spring Data and Hibernate.
+				Rest Repositories WEB
+					Exposing Spring Data repositories over REST via Spring Data REST.
+				MySQL Driver SQL
+					MySQL JDBC and R2DBC driver.
+				Lombok DEVELOPER TOOLS
+					Java annotation library which helps to reduce boilerplate code.
+					
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+We only want to list or read data.
+
+But Spring Data REST will expose all the endpoints for free.
+
+Possible Solutions :-
+	
+	1.	Don't use Spring Data REST
+		1. 	Manually create our own @RestController
+		2.	Manually define methods for access @GetMapping
+		3.	But we lose the Spring Data REST support for paging, sorting etc.
+		
+	2.	Use Spring Data REST
+		1.	Configure to disable certain HTTP methods: POST, DELETE etc..

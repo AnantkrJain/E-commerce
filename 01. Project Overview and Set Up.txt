@@ -1,0 +1,111 @@
+Requirements :-
+
+	1.	Show a list of products
+	2.	Add products to shopping cart (CRUD)
+	3.	Shopping Cart check out
+	4.	User login/logout security
+	5.	Track previous orders for logged in users
+	
+Release Plan :-
+
+	Release 1.0
+		Show a list of products
+	Release 2.0
+		Add products to shopping cart (CRUD)
+		Shopping cart checkout
+	Release 3.0
+		User login/logout security
+		Track previous orders for logged in users
+		
+Java Development Environment :-
+
+	1.	Java Development Kit (JDK)
+	2.	Java IDE(IntelliJ)
+	3.	Maven
+	4.	MySQL Database and MySQL Workbench
+	
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+	
+IntelliJ -
+	
+	Known as IntelliJ Community Edition
+	Download from: https://www.jetbrains.com/idea/download
+	Select Community Edition
+	
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Spring Boot Back End -
+
+	Leverage Spring Data REST for REST API
+	Minimizes the coding for Spring Boot back end
+	
+Create Repository :-
+
+	Spring Data REST will scan your project for JpaRepository
+	Expose REST APIs for each entity type for your JpaRepository
+	
+REST Endpoints :-
+	
+	By default, Spring Data REST will create endpoints based on entity type
+	Simple pluralized form
+		first character of entity type is lowecase
+		then just add 's' to the entity
+		
+REST API -
+
+	HTTP Method							CRUD Action
+	
+	POST	/products					Create a new products
+	GET		/products					Read a list of products
+	GET		/products/{id}				Read a single product
+	PUT		/products/{id}				Update an existing product
+	DELETE	/products/{id}				Delete an existing product
+
+Development Process :-
+
+	1.	Set up the database tables
+	2.	Create a Spring Boot starter project(start.spring.io)
+			spring-boot-starter-data-jpa
+			spring-boot-starter-data-rest
+			mysql-connector-java
+			lombok
+	3.	Develop the Entities: Product and ProductCategory
+	4. 	Create REST APIs with Spring Data JPA Repositories and Spring Data REST
+	
+Project Lombok :-
+
+	1.	Modern Java project
+	2. 	Lombok automatically generates the getters/setters
+	3.	No need for the developer to manually define getters/setters
+	4.	Easy-to-use annotations to eliminate boilerplate code
+	
+	Documentation :-
+		http://www.projectlombok.org
+	
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
