@@ -1,0 +1,30 @@
+Create Angular Front End Components
+Retrieve data from Spring Boot REST APIs
+
+Development Process :-
+
+	1.	Create Angular project
+	2.	Create Angular component for product-list
+	3.	Develop TypeScript class for Product
+	4.	Create Angular Service to call REST APIs
+	5.	Update Angular component to subscribe to data from Angular Service
+	6.	Display the data in an HTML page
+	7.	Add CrossOrigin support to Spring Boot app
+	
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+	
+	Angular Service is code developed in TypeScript.
+	Service is a helper class that provides dersired functionality
+	Part of your Angular application and runs in web-browser client-side
+	
+	# Web browsers will not allow script code to call APIs not on same origin. This is called Same-origin policy.
+		Same origin is composed of: scheme/protocol, hostname, port number
+		
+		Hence, http://localhost:4200/ is not the same origin as http://localhost:8080/.
+		
+	Restrictions are specific to scripts running in a web browser(JavaScript).
+	We need to add "Cross-Origin Resource Sharing(CORS)" on server side application.
+	
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+

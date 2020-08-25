@@ -1,0 +1,37 @@
+Release 2.0 - Plan
+
+	1.	Online Shop Template Integration
+	2.	Search for products by category
+	3.	Search for products by text box
+	4.	Master/detail view of products
+	5.	Master/detail view of products
+	6.	Pagination support for products
+	7.	Add products to shopping cart (CRUD)
+	8.	Shopping cart check out
+	
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Current Stauts :-
+
+	At the moment, we have a very basic front end.
+	Proof of concept for listing the product: Angular + Spring Boot
+	
+	It doesn't look like real application.
+	
+Online Shop Template Integration :-
+
+	We need a website that looks like an online shop.
+	
+	Development Integration :-
+	
+		1.	Download the HTML template starter files
+		2.	Install Bootstrap CSS styles locally using npm
+				npm install bootstrap
+				npm install @fortawesome/fontawesome-free
+		3.	Add local custom CSS styles to Angular src/styles.css files
+		4.	Integrate template files into Angular application
+		5.	Add support for icons and logos
+		6.	Enhance our application with product images
+		
+		# To avoid caching issue, give unique query parameter.
+				Example - href="favicon.ico?v=2"
